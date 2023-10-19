@@ -20,8 +20,6 @@ function setup() {
   }
 
   createCanvas(windowSizeX, windowSizeY);
-
-  console.log (windowSizeY)
   
 
   background(backgroundColor);
@@ -50,7 +48,6 @@ function draw() {
   start += inc;
   
   saveSketch()
-  console.log(timer)
 }
 
 function saveSketch() {
@@ -77,18 +74,8 @@ function saveSketch() {
 
 
 function buttonClicked() {
-  // backgroundColor = 0; // Set the background color back to the initial value
-
-  // // Clear the canvas
-  // background(backgroundColor);
-
-  // timer = millis()
   clear()
   loop()
-
-
-
-
 }
 
 
