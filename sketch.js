@@ -1,4 +1,4 @@
-let timer;
+let timer
 
 let inc = 0.01;
 let start = 0;
@@ -6,8 +6,12 @@ let windowSizeX = 600
 let windowSizeY = 600
 let circleSize = 20
 
+let backgroundColor = 0
+
+
 
 function setup() {
+ 
 
   if(windowWidth < 700) {
     windowSizeX = 350
@@ -20,8 +24,15 @@ function setup() {
   console.log (windowSizeY)
   
 
-  background(0);
+  background(backgroundColor);
   timer = millis();
+
+    // Create a button
+    let button = createButton('Click Me');
+    button.position(10, 10);
+  
+    // Add an event listener to the button
+    button.mousePressed(buttonClicked);
 }
 
 function draw() {
@@ -45,6 +56,7 @@ function saveSketch() {
       if (millis() - timer >= 15000) {
     // Restart the sketch by resetting the timer
     timer = millis();
+   
     noLoop()
     const today = new Date();
 
@@ -59,6 +71,19 @@ function saveSketch() {
     // Save the canvas as a jpg with the generated filename
     // saveCanvas(filename, 'jpg');
   }
+}
+
+
+
+function buttonClicked() {
+  backgroundColor = 0; // Set the background color back to the initial value
+  timer = 0
+  // Clear the canvas
+  background(backgroundColor);
+
+  timer = 0
+
+
 }
 
 
