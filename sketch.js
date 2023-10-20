@@ -15,7 +15,13 @@ function setup() {
   createCanvas(windowSizeX, windowSizeY);
   background(0)
   timer = millis()
-  buildButton()
+  // buildButton()
+  let button = document.getElementById('myButton');
+
+// Add an onclick event handler
+button.onclick = function() {
+  buttonClicked(); // Call your p5.js function
+};
 }
 
 function draw() {
@@ -26,13 +32,13 @@ function draw() {
 
 //Helper functions below
 
-function buildButton() {
-  let button = createButton('Create New Drawing')
-  button.style("font-family", "Roboto");
-  button.position(10, 10)
-  // button.position(10, 800)
-  button.mousePressed(buttonClicked)
-}
+// function buildButton() {
+//   let button = createButton('Create New Drawing')
+//   button.style("font-family", "Roboto");
+//   button.position(10, 10)
+//   // button.position(10, 800)
+//   button.mousePressed(buttonClicked)
+// }
 
 function buttonClicked() {
   clear()
