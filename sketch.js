@@ -1,22 +1,22 @@
 let timer
 let inc = 0.01
 let start = 0
-let windowSizeX = 600
-let windowSizeY = 600
+let canvasSizeX = 600
+let canvasSizeY = 600
 let circleSize = 20
 
 function setup() {
   //Using JS for mobile devise media query
   if(windowWidth < 768) {
-    windowSizeX = 350
-    windowSizeY = 350
+    canvasSizeX = 350
+    canvasSizeY = 350
     circleSize = 10
   }
-  createCanvas(windowSizeX, windowSizeY);
+  createCanvas(canvasSizeX, canvasSizeY);
   background(0)
   timer = millis()
   // buildButton()
-  let button = document.getElementById('myButton');
+  let button = document.getElementById('generateButton');
 
 // Add an onclick event handler
 button.onclick = function() {

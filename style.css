@@ -23,19 +23,45 @@ h1 {
 }
 
 a {
-  position: fixed; 
-  bottom: 10px;   
-  right: 10px;    
-  color: white;
+  margin: 8px; /* Add some margin between the buttons */
 }
 
 button {
+  margin: 8px; /* Add some margin between the buttons */
+  padding: 10px 20px; /* Padding inside the buttons */
+  background-color: #000000; /* Button background color */
+  color: #fff; /* Text color (white) */
+  border-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color .5s ease;
+}
+
+/* button:hover {
+  background-color: #ffffff; 
+  color: black;
+  border-color: black;
+} */
+
+/* #downloadButton {
   position: fixed; 
-  top: 10px;   
-  left: 10px;    
-  /* color: black;
-  background-color: rgb(9, 5, 247); */
-  
+  top: 20px;   
+  left: 20px;    
+  border: 1.5px solid #ffffff;
+  border-radius: 100px;
+  padding: 10px;
+  cursor:pointer;
+} */
+
+.button-container {
+  display: flex; /* Use a flex container to stack buttons vertically */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  border: 2px solid #ffffff; /* Border around the container */
+  padding: 10px; /* Padding inside the container */
+  width: 200px; /* Set a width for the container */
+  margin-right: 100px;
+
 }
 
 
