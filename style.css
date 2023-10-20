@@ -13,6 +13,14 @@ canvas {
   border: 2px solid #ffffff;  
 }
 
+h1 {
+  display: flex;
+  position: fixed; 
+  top: 10px;   
+  left: 10px;    
+  color: white;
+}
+
 a {
   position: fixed; 
   bottom: 10px;   
