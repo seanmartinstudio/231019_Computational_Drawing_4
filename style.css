@@ -69,3 +69,11 @@ img {
   width: 40px; /* Adjust the width to change the size */
   height: auto; /* Maintain the original aspect ratio */
 }
+
+@media screen and (max-width: 768px) {
+  .button-container {
+    top: 10px;
+    left: 10px;
+    margin-right: 0;
+  }
+}
