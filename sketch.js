@@ -62,7 +62,7 @@ function saveSketch() {
     const filename = `${year}_${month}_${day}_SketchName`;
 
     // Save the canvas as a jpg with the generated filename
-    saveCanvas(filename, 'jpg');
+    // saveCanvas(filename, 'jpg');
   }
 }
 
