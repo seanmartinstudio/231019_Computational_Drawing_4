@@ -75,7 +75,6 @@ img {
     flex-direction: column; /* Stack items vertically */
     width: max-content; /* Make it only as wide as its content */
     align-items: flex-start;
-    border: 0px;
     display: flex;
     position: fixed; 
     top: 10px;   
