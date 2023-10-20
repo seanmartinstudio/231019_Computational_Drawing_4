@@ -31,9 +31,11 @@ a {
 
 button {
   position: fixed; 
-  bottom: 15px;   
+  top: 10px;   
   left: 10px;    
-  /* color: white; */
+  /* color: black;
+  background-color: rgb(9, 5, 247); */
+  
 }
 
 
