@@ -26,7 +26,7 @@ function setup() {
   timer = millis();
 
     // Create a button
-    let button = createButton('New Drawing');
+    let button = createButton('Make New Drawing');
     button.position(10, 10);
   
     // Add an event listener to the button
