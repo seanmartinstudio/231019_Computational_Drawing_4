@@ -1,4 +1,5 @@
 body, html {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,9 +13,13 @@ canvas {
   border: 2px solid #ffffff;  
 }
 
-/* @media screen and (max-width: 768px) {
-  canvas {
-    width: 100%; 
-    height: auto;
-  }
-} */
+a {
+  position: fixed; 
+  bottom: 10px;   
+  right: 10px;    
+  color: white;
+}
+
+a:visited {
+  color: white;
+}

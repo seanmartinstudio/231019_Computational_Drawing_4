@@ -28,6 +28,7 @@ function draw() {
 
 function buildButton() {
   let button = createButton('Create New Drawing')
+  button.style("font-family", "Roboto");
   button.position(10, 10)
   button.mousePressed(buttonClicked)
 }
