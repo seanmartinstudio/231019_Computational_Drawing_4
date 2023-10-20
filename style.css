@@ -69,8 +69,8 @@ img {
   height: auto; /* Maintain the original aspect ratio */
 }
 
-/* @media screen and (max-width: 768px) {
-  .button-container {
-    margin-bottom: 50px;
+@media screen and (max-width: 768px) {
+  canvas {
+    border: 0px
   }
-} */
+}
