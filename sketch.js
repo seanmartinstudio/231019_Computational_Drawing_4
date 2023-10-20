@@ -30,6 +30,7 @@ function buildButton() {
   let button = createButton('Create New Drawing')
   button.style("font-family", "Roboto");
   button.position(10, 10)
+  // button.position(10, 800)
   button.mousePressed(buttonClicked)
 }
 
