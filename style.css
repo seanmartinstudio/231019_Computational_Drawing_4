@@ -15,6 +15,7 @@ canvas {
 
 h1 {
   font-size: 24px; 
+  font-style: bold;
   color: white;
 }
 
@@ -54,7 +55,6 @@ button {
   flex-direction: column; /* Stack items vertically */
   width: max-content; /* Make it only as wide as its content */
   align-items: flex-start;
-  border: 2px solid #ffffff; /* Border around the container */
   padding: 10px; /* Padding inside the container */
   display: flex;
   position: fixed; 
@@ -76,10 +76,10 @@ img {
     width: max-content; /* Make it only as wide as its content */
     align-items: flex-start;
     border: 0px;
-    padding: 10px; /* Padding inside the container */
     display: flex;
     position: fixed; 
     top: 10px;   
     left: 10px;  
+    padding-bottom: 20px;
   }
 }
