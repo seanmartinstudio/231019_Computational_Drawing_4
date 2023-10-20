@@ -7,7 +7,6 @@ body, html {
   align-items: center;     /* Center vertically */
   height: 100vh;           
   background-color: #000000; /* Set background color if needed */
-  overflow-y: hidden;
 }
 
 canvas {
