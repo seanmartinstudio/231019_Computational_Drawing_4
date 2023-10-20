@@ -14,11 +14,7 @@ canvas {
 }
 
 h1 {
-  font-size: 24px;
-  display: flex;
-  position: fixed; 
-  top: 10px;   
-  left: 10px;    
+  font-size: 24px; 
   color: white;
 }
 
@@ -56,11 +52,14 @@ button {
 .button-container {
   display: flex; /* Use a flex container to stack buttons vertically */
   flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  width: max-content; /* Make it only as wide as its content */
+  align-items: flex-start;
   border: 2px solid #ffffff; /* Border around the container */
   padding: 10px; /* Padding inside the container */
-  width: 200px; /* Set a width for the container */
-  margin-right: 100px;
+  display: flex;
+  position: fixed; 
+  top: 10px;   
+  left: 10px;  
 
 }
 
@@ -70,10 +69,8 @@ img {
   height: auto; /* Maintain the original aspect ratio */
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .button-container {
-    top: 10px;
-    left: 10px;
-    margin-right: 0;
+    margin-bottom: 50px;
   }
-}
+} */
