@@ -31,3 +31,8 @@ a {
 a:visited {
   color: white;
 }
+
+img {
+  width: 40px; /* Adjust the width to change the size */
+  height: auto; /* Maintain the original aspect ratio */
+}
