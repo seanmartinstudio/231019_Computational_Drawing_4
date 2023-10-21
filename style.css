@@ -42,6 +42,7 @@ button {
   cursor: pointer;
   transition: font-style 0.1s ease; 
   font-weight: 300;
+  box-shadow: 2px 3px 1px white;
 }
 
 button:hover {
