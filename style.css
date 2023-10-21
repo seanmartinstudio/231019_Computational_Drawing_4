@@ -16,6 +16,12 @@ body, html {
 h1 {
   font-size: 24px; 
   color: white;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 18px; 
+  color: white;
   font-weight: 300;
 }
 
@@ -67,19 +73,19 @@ button:hover {
 
 
 img {
-  width: 40px; /* Adjust the width to change the size */
+  width: 35px; /* Adjust the width to change the size */
   height: auto; /* Maintain the original aspect ratio */
 }
 
 @media screen and (max-width: 768px) {
-  .button-container {
-    display: flex; /* Use a flex container to stack buttons vertically */
-    flex-direction: column; /* Stack items vertically */
-    width: max-content; /* Make it only as wide as its content */
-    align-items: flex-start;
-    display: flex;
-    position: fixed; 
-    top: 10px;   
-    left: 10px;  
+  img {
+    width: 30px; /* Adjust the width to change the size */
+    height: auto; /* Maintain the original aspect ratio */
+  }
+
+  a {
+    margin: 8px; /* Add some margin between the buttons */
+    bottom: 10px;
+    position: fixed;
   }
 }
