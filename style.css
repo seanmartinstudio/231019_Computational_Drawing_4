@@ -9,9 +9,9 @@ body, html {
   background-color: #000000; /* Set background color if needed */
 }
 
-canvas {
+/* canvas {
   border: 2px solid #ffffff;  
-}
+} */
 
 h1 {
   font-size: 24px; 
