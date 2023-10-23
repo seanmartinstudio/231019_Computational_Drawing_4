@@ -10,7 +10,7 @@ function setup() {
   if(windowWidth < 768) {
     canvasSizeX = 350
     canvasSizeY = 350
-    circleSize = 10
+    circleSize = 12
   }
   createCanvas(canvasSizeX, canvasSizeY);
   background(0)
